@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3671852907511238338
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3671852907511238339}
+  - component: {fileID: 3671852907511238332}
+  m_Layer: 0
+  m_Name: HumanController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3671852907511238339
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3671852907511238338}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3671852907511238332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3671852907511238338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a75cca978933b1c4ba757a5db7404924, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _figures: {fileID: 11400000, guid: a853c6c93d3df7f42b5c2588cfec8501, type: 2}
+  _humanPrefab: {fileID: 7560919519507319348, guid: 30b4a7fb5a4512445ab32e4154d89409,
+    type: 3}
+  _timeUpdateByers: {fileID: 11400000, guid: 0847dc454580d0245b85254185b08381, type: 2}
+  points:
+  - startPosition: {fileID: 4376341380997205691, guid: 3e24bb732b00c3d48a7e3582e549193a,
+      type: 3}
+    endPosition: {fileID: 948248589845620868, guid: 349378b784d2a2d4da03723dec820ead,
+      type: 3}
+  - startPosition: {fileID: 6433587704019999270, guid: c523eca1a6978644a8fa3ed12eef5b78,
+      type: 3}
+    endPosition: {fileID: 7631944651997458948, guid: 642af2cdae23853478922bef33852c37,
+      type: 3}
+  - startPosition: {fileID: 2093610319704899882, guid: c468ee4c6f239504db9fe65722675f76,
+      type: 3}
+    endPosition: {fileID: 6149796828896758638, guid: d1c16b5c928d6ca438beb71ea1d42038,
+      type: 3}
+  humans: []
+  isNearConveyors: 
+  timeBeetweenPeople: 5
